@@ -85,7 +85,7 @@ export function Home() {
                         key={link.id}
                         className="bg-white mb-4 w-full py-2 rounded-lg select-none transition-transform hover:scale-105"
                     >
-                        <a target="blank" key={link.url}>
+                        <a target="_blank" href={link.url}>
                             <p
                                 style={{
                                     color: link.color,
